@@ -154,7 +154,7 @@
 
         async function fetchHackathons() {
             try {
-                const response = await fetch("http://localhost:5000/hackathons");
+                const response = await fetch("https://devfolio-scrapper.onrender.com");
 
                 if (!response.ok) {
                     throw new Error("Failed to fetch hackathons");
